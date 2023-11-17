@@ -32,6 +32,7 @@ Berikut ini adalah contoh source code webhook
 
 ## Release Package
 ```sh
+go mod init github.com/whatsauth/webhook
 go get -u all					#update existing package
 go mod tidy					#generate go mod
 git tag                                 	#check current version
